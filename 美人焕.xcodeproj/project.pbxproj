@@ -16,6 +16,21 @@
 		581B8EED2A2F5CF10099CA1E /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B8EEC2A2F5CF10099CA1E /* ___Tests.swift */; };
 		581B8EF72A2F5CF10099CA1E /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B8EF62A2F5CF10099CA1E /* ___UITests.swift */; };
 		581B8EF92A2F5CF10099CA1E /* ___UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B8EF82A2F5CF10099CA1E /* ___UITestsLaunchTests.swift */; };
+		581B8F0B2A2F69E30099CA1E /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B8F0A2A2F69E30099CA1E /* DesignView.swift */; };
+		581B8F0D2A2F69FB0099CA1E /* DesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B8F0C2A2F69FB0099CA1E /* DesignViewController.swift */; };
+		581B8F102A2F6F5F0099CA1E /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B8F0F2A2F6F5F0099CA1E /* GlobalVariables.swift */; };
+		581B8F122A305F510099CA1E /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B8F112A305F510099CA1E /* TitleCollectionViewCell.swift */; };
+		581B8F142A30809C0099CA1E /* SmallCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581B8F132A30809C0099CA1E /* SmallCollectionViewCell.swift */; };
+		5858F94E2A3F2E1A00C79108 /* left3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5858F94D2A3F2E1A00C79108 /* left3.png */; };
+		5858F9502A3F2E1E00C79108 /* left1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5858F94F2A3F2E1E00C79108 /* left1.png */; };
+		5858F9522A408DB500C79108 /* left2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5858F9512A408DB500C79108 /* left2.png */; };
+		588AA9192A3C95E8007AC160 /* BodyTracking in Frameworks */ = {isa = PBXBuildFile; productRef = 588AA9182A3C95E8007AC160 /* BodyTracking */; };
+		588AA9282A3C9AD9007AC160 /* robotWhite.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 588AA9272A3C9AD9007AC160 /* robotWhite.usdz */; };
+		58D074D62A30DD140079EE26 /* ChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D074D52A30DD140079EE26 /* ChangeViewController.swift */; };
+		58D074D82A30DEC50079EE26 /* ChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D074D72A30DEC50079EE26 /* ChangeView.swift */; };
+		58D076342A3C5E940079EE26 /* ARClothesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D076332A3C5E940079EE26 /* ARClothesViewController.swift */; };
+		58D076362A3C6AD00079EE26 /* ARClothesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D076352A3C6AD00079EE26 /* ARClothesView.swift */; };
+		773AF73B78DBAEE7EDE173D6 /* libPods-美人焕.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E590F7FD0366955551451620 /* libPods-美人焕.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4960978B96B61AC7A5B93A1E /* Pods-美人焕.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-美人焕.release.xcconfig"; path = "Target Support Files/Pods-美人焕/Pods-美人焕.release.xcconfig"; sourceTree = "<group>"; };
 		581B8ED22A2F5CEE0099CA1E /* 美人焕.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美人焕.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		581B8ED52A2F5CEE0099CA1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		581B8ED72A2F5CEE0099CA1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,21 @@
 		581B8EF22A2F5CF10099CA1E /* 美人焕UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "美人焕UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		581B8EF62A2F5CF10099CA1E /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
 		581B8EF82A2F5CF10099CA1E /* ___UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		581B8F0A2A2F69E30099CA1E /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
+		581B8F0C2A2F69FB0099CA1E /* DesignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignViewController.swift; sourceTree = "<group>"; };
+		581B8F0F2A2F6F5F0099CA1E /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		581B8F112A305F510099CA1E /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		581B8F132A30809C0099CA1E /* SmallCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCollectionViewCell.swift; sourceTree = "<group>"; };
+		5858F94D2A3F2E1A00C79108 /* left3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left3.png; sourceTree = "<group>"; };
+		5858F94F2A3F2E1E00C79108 /* left1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left1.png; sourceTree = "<group>"; };
+		5858F9512A408DB500C79108 /* left2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left2.png; sourceTree = "<group>"; };
+		588AA9272A3C9AD9007AC160 /* robotWhite.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robotWhite.usdz; sourceTree = "<group>"; };
+		58D074D52A30DD140079EE26 /* ChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeViewController.swift; sourceTree = "<group>"; };
+		58D074D72A30DEC50079EE26 /* ChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeView.swift; sourceTree = "<group>"; };
+		58D076332A3C5E940079EE26 /* ARClothesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARClothesViewController.swift; sourceTree = "<group>"; };
+		58D076352A3C6AD00079EE26 /* ARClothesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARClothesView.swift; sourceTree = "<group>"; };
+		C6CA40ECA2D1D357B137A70F /* Pods-美人焕.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-美人焕.debug.xcconfig"; path = "Target Support Files/Pods-美人焕/Pods-美人焕.debug.xcconfig"; sourceTree = "<group>"; };
+		E590F7FD0366955551451620 /* libPods-美人焕.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-美人焕.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773AF73B78DBAEE7EDE173D6 /* libPods-美人焕.a in Frameworks */,
+				588AA9192A3C95E8007AC160 /* BodyTracking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		152000E789178135E9B203C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6CA40ECA2D1D357B137A70F /* Pods-美人焕.debug.xcconfig */,
+				4960978B96B61AC7A5B93A1E /* Pods-美人焕.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		581B8EC92A2F5CEE0099CA1E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				581B8EEB2A2F5CF10099CA1E /* 美人焕Tests */,
 				581B8EF52A2F5CF10099CA1E /* 美人焕UITests */,
 				581B8ED32A2F5CEE0099CA1E /* Products */,
+				152000E789178135E9B203C2 /* Pods */,
+				F473357031B513A4D1F578F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +143,15 @@
 		581B8ED42A2F5CEE0099CA1E /* 美人焕 */ = {
 			isa = PBXGroup;
 			children = (
+				581B8F152A30B7F00099CA1E /* DesignPhoto */,
 				581B8ED52A2F5CEE0099CA1E /* AppDelegate.swift */,
 				581B8ED72A2F5CEE0099CA1E /* SceneDelegate.swift */,
 				581B8ED92A2F5CEE0099CA1E /* ViewController.swift */,
+				581B8F0F2A2F6F5F0099CA1E /* GlobalVariables.swift */,
+				588AA9272A3C9AD9007AC160 /* robotWhite.usdz */,
+				581B8F072A2F69860099CA1E /* Design */,
+				581B8F0E2A2F6A420099CA1E /* Change */,
+				58D0762E2A3C5E3A0079EE26 /* ARClothes */,
 				581B8EDB2A2F5CEE0099CA1E /* Main.storyboard */,
 				581B8EDE2A2F5CF00099CA1E /* Assets.xcassets */,
 				581B8EE02A2F5CF00099CA1E /* LaunchScreen.storyboard */,
@@ -127,6 +177,101 @@
 			path = "美人焕UITests";
 			sourceTree = "<group>";
 		};
+		581B8F072A2F69860099CA1E /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				581B8F082A2F69B30099CA1E /* V */,
+				581B8F092A2F69BE0099CA1E /* C */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		581B8F082A2F69B30099CA1E /* V */ = {
+			isa = PBXGroup;
+			children = (
+				581B8F0A2A2F69E30099CA1E /* DesignView.swift */,
+				581B8F112A305F510099CA1E /* TitleCollectionViewCell.swift */,
+				581B8F132A30809C0099CA1E /* SmallCollectionViewCell.swift */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		581B8F092A2F69BE0099CA1E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				581B8F0C2A2F69FB0099CA1E /* DesignViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		581B8F0E2A2F6A420099CA1E /* Change */ = {
+			isa = PBXGroup;
+			children = (
+				58D074D42A30DCFD0079EE26 /* V */,
+				58D074D32A30DCF80079EE26 /* C */,
+			);
+			path = Change;
+			sourceTree = "<group>";
+		};
+		581B8F152A30B7F00099CA1E /* DesignPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				5858F94F2A3F2E1E00C79108 /* left1.png */,
+				5858F9512A408DB500C79108 /* left2.png */,
+				5858F94D2A3F2E1A00C79108 /* left3.png */,
+			);
+			path = DesignPhoto;
+			sourceTree = "<group>";
+		};
+		58D074D32A30DCF80079EE26 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				58D074D52A30DD140079EE26 /* ChangeViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		58D074D42A30DCFD0079EE26 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				58D074D72A30DEC50079EE26 /* ChangeView.swift */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		58D0762E2A3C5E3A0079EE26 /* ARClothes */ = {
+			isa = PBXGroup;
+			children = (
+				58D076302A3C5E520079EE26 /* V */,
+				58D0762F2A3C5E4D0079EE26 /* C */,
+			);
+			path = ARClothes;
+			sourceTree = "<group>";
+		};
+		58D0762F2A3C5E4D0079EE26 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				58D076332A3C5E940079EE26 /* ARClothesViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		58D076302A3C5E520079EE26 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				58D076352A3C6AD00079EE26 /* ARClothesView.swift */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		F473357031B513A4D1F578F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E590F7FD0366955551451620 /* libPods-美人焕.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 581B8EFC2A2F5CF10099CA1E /* Build configuration list for PBXNativeTarget "美人焕" */;
 			buildPhases = (
+				BF087E95895C6787EB3512C8 /* [CP] Check Pods Manifest.lock */,
 				581B8ECE2A2F5CEE0099CA1E /* Sources */,
 				581B8ECF2A2F5CEE0099CA1E /* Frameworks */,
 				581B8ED02A2F5CEE0099CA1E /* Resources */,
@@ -143,6 +289,9 @@
 			dependencies = (
 			);
 			name = "美人焕";
+			packageProductDependencies = (
+				588AA9182A3C95E8007AC160 /* BodyTracking */,
+			);
 			productName = "美人焕";
 			productReference = 581B8ED22A2F5CEE0099CA1E /* 美人焕.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +364,9 @@
 				Base,
 			);
 			mainGroup = 581B8EC92A2F5CEE0099CA1E;
+			packageReferences = (
+				588AA9172A3C95E8007AC160 /* XCRemoteSwiftPackageReference "BodyTracking" */,
+			);
 			productRefGroup = 581B8ED32A2F5CEE0099CA1E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +385,11 @@
 			files = (
 				581B8EE22A2F5CF00099CA1E /* LaunchScreen.storyboard in Resources */,
 				581B8EDF2A2F5CF00099CA1E /* Assets.xcassets in Resources */,
+				5858F9502A3F2E1E00C79108 /* left1.png in Resources */,
+				5858F94E2A3F2E1A00C79108 /* left3.png in Resources */,
 				581B8EDD2A2F5CEE0099CA1E /* Main.storyboard in Resources */,
+				588AA9282A3C9AD9007AC160 /* robotWhite.usdz in Resources */,
+				5858F9522A408DB500C79108 /* left2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +409,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BF087E95895C6787EB3512C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-美人焕-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		581B8ECE2A2F5CEE0099CA1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D074D62A30DD140079EE26 /* ChangeViewController.swift in Sources */,
+				58D076342A3C5E940079EE26 /* ARClothesViewController.swift in Sources */,
+				581B8F142A30809C0099CA1E /* SmallCollectionViewCell.swift in Sources */,
+				581B8F122A305F510099CA1E /* TitleCollectionViewCell.swift in Sources */,
+				581B8F102A2F6F5F0099CA1E /* GlobalVariables.swift in Sources */,
+				58D074D82A30DEC50079EE26 /* ChangeView.swift in Sources */,
+				58D076362A3C6AD00079EE26 /* ARClothesView.swift in Sources */,
+				581B8F0B2A2F69E30099CA1E /* DesignView.swift in Sources */,
 				581B8EDA2A2F5CEE0099CA1E /* ViewController.swift in Sources */,
 				581B8ED62A2F5CEE0099CA1E /* AppDelegate.swift in Sources */,
+				581B8F0D2A2F69FB0099CA1E /* DesignViewController.swift in Sources */,
 				581B8ED82A2F5CEE0099CA1E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +622,7 @@
 		};
 		581B8EFD2A2F5CF10099CA1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CA40ECA2D1D357B137A70F /* Pods-美人焕.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,14 +634,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.---";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lindexi-gd.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,6 +651,7 @@
 		};
 		581B8EFE2A2F5CF10099CA1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4960978B96B61AC7A5B93A1E /* Pods-美人焕.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,14 +663,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.---";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lindexi-gd.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -602,6 +794,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		588AA9172A3C95E8007AC160 /* XCRemoteSwiftPackageReference "BodyTracking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Reality-Dev/BodyTracking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		588AA9182A3C95E8007AC160 /* BodyTracking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 588AA9172A3C95E8007AC160 /* XCRemoteSwiftPackageReference "BodyTracking" */;
+			productName = BodyTracking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 581B8ECA2A2F5CEE0099CA1E /* Project object */;
 }

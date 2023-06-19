@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "bodytracking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Reality-Dev/BodyTracking",
+      "state" : {
+        "revision" : "750ac8e1b75871a342034ff731960e321572877f",
+        "version" : "1.2.11"
+      }
+    },
+    {
+      "identity" : "realitykit-utilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Reality-Dev/RealityKit-Utilities.git",
+      "state" : {
+        "revision" : "55ec91b027d28f41038c59e5f9a9dd6bef457e71",
+        "version" : "1.0.54"
+      }
+    }
+  ],
+  "version" : 2
+}

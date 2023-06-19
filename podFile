@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+target '美人焕' do
+pod 'SnapKit'
+pod 'FMDB'
+end
